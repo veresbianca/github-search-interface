@@ -1,8 +1,13 @@
 import "./App.css";
-import { BasicForm } from "./components";
+import { BasicForm, ReposList } from "./components";
 
 function App() {
-  return <BasicForm />;
+  return (
+    <>
+      <BasicForm />
+      <ReposList />
+    </>
+  );
 }
 
 export default App;
